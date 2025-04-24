@@ -1,0 +1,335 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cinzel, sans-serif;
+
+}
+
+/* Styles for header og navigation bar */
+header {
+    background-color: #0D9655;
+    padding: 8px;
+    text-align: center;
+    height: 150px; /* Fixed height for the header */
+    position: relative; /* Ensure the header is part of the document flow */
+    z-index: 10; /* Keep the header above other elements */
+  }
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    width: 100%;
+    height: 150px;
+}
+
+header a img {
+    width: 230px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    font-family: cinzel, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+.Hvad h2, .Hvad p {
+    flex-direction: column;
+}
+
+.Hvad {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping of text and video */
+  justify-content: space-between; /* Space out the text and video */
+  align-items: center; /* Align items vertically */
+  text-align: center;
+  margin: 0; /* Remove unnecessary margins */
+  padding: 0; /* Remove padding */
+}
+
+.Hvad video, .column {
+  flex: 1; /* Allow the text and video to take up equal space */
+  max-width: 50%; /* Limit each column to 50% of the container */
+}
+
+
+
+.Hvad h2 {
+align-self:center;
+  font-family: Cinzel, sans-serif;
+  font-size: 2vw; /* Use viewport width for responsive font size */
+  color: #0D9655;
+}
+
+.Hvad p {
+  font-family: Cinzel, sans-serif;
+  font-size: 1.2vw; /* Use viewport width for responsive font size */
+  color: black;
+  text-align: left;
+  margin: 4%; /* Add spacing around the text */
+}
+
+.Hvad video {
+  flex: 1; /* Allow the video to take up available space */
+  width: 100%; /* Make the video responsive */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 50%; /* Limit the video to 50% of the container */
+}
+
+
+
+
+.Fællesskab {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping of text and video */
+    justify-content: space-between; /* Space out the text and video */
+    align-items: center; /* Align items vertically */
+    text-align: center;
+    margin: 0; /* Remove unnecessary margins */
+    padding: 0; /* Remove padding */
+  }
+  
+  .Fællesskab .column {
+    flex: 1; /* Allow the image and text to take up equal space */
+    max-width: 50%; /* Limit each column to 50% of the container */
+  }
+  
+  .Fællesskab img {
+    flex: 1;
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+  
+  }
+  
+  .Fællesskab h2 {
+    align-self:center;
+      font-family: Cinzel, sans-serif;
+      font-size: 2vw; /* Use viewport width for responsive font size */
+      color: #0D9655;
+    }
+
+  .tekst-og-knap p {
+    font-family: Cinzel, sans-serif;
+    font-size: 1.2vw; /* Use viewport width for responsive font size */
+    color: black;
+    text-align: left;
+    margin: 4%; /* Add spacing around the text */
+  }
+  
+  #button-container {
+    margin-top: 20px;
+    background-color: #0D9655;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-family: Cinzel, sans-serif;
+    font-size: 1vw; /* Use viewport width for responsive font size */
+  }
+  
+  #button-container a {
+    color: white;
+    text-decoration: none;
+  }
+
+
+  footer {
+    display: flex;
+    background-color: #0D9655; /* Green background */
+    font-family: cinzel, sans-serif;
+    font-size: 10px;
+    color: white; /* White text */
+    justify-content: space-evenly;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+footer a {
+    color: white; /* White text for links */
+    text-decoration: none;
+    font-family: cinzel, sans-serif;
+}
+
+footer a:hover {
+    text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    font-family: cinzel, sans-serif;
+}
+
+footer form input {
+    margin-bottom: 10px;
+}
+
+footer div button {
+    background-color: white; /* White button background */
+    border: none;
+    color: #0D9655; /* Green text for the button */
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 10px;
+    font-family: cinzel, sans-serif;
+    border-radius: 50px;
+    display: inline-block;
+    transition: all 0.4s;
+}
+
+footer div button:hover {
+    background-color: #0A7A45; /* Darker green on hover */
+    color: white; /* White text on hover */
+}
+
+
+
+/* Styles for mobile header */
+.desktop-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    width: 100%;
+    height: 150px;
+}
+
+.mobile-header {
+    display: none;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+
+/* Styles for mobile view */
+@media (max-width: 768px) {
+    .desktop-nav {
+        display: none; /* Gemmer desktop nav på små skærme */
+    }
+
+    /* Mobile header styles */
+    .mobile-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+        position: relative;
+        height: 80px;
+        background-color: #0D9655;
+    }
+    
+    /* Mobile logo og dropdown menu i burgericon istedet for navigation bar*/
+    .burger-icon {
+        position: absolute;
+        left: 20px;
+        width: 60px;
+        height: auto;
+        cursor: pointer;
+    }
+    
+    .mobile-logo {
+        width: 160px;
+        height: auto;
+    }
+
+    .dropdown-menu {
+        display: none;
+        flex-direction: column;
+        background-color: #0D9655;
+        position: absolute;
+        top: 100px; /* Juster denne værdi for at ændre højden på dropdown-menuen, så logo stadig kan ses*/
+        left: 0;
+        width: 100%;
+        height: auto;
+        padding: 10px 0;
+        z-index: 1000;
+        text-align: center;
+    }
+
+    .dropdown-menu.show {
+        display: flex;
+        
+    }
+
+    .dropdown-menu a {
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-family: cinzel, sans-serif;
+        font-size: 18px;
+    }
+
+    .Hvad {
+        flex-direction: column; /* Stack the text and video vertically */
+        align-items: center; /* Center items horizontally */
+      }
+    
+      .Hvad .column {
+        max-width: 100%; /* Allow each column to take full width */
+      }
+    
+      .Hvad h2 {
+        font-size: 4vw; /* Increase font size for smaller screens */
+        text-align: center; /* Center the header text */
+      }
+    
+      .Hvad p {
+        font-size: 3vw; /* Increase font size for smaller screens */
+        text-align: center; /* Center the paragraph text */
+      }
+    
+      .Hvad video {
+        max-width: 100%; /* Allow the video to take full width */
+      }
+
+
+
+
+      .Fællesskab {
+        flex-direction: column; /* Stack the image and text vertically */
+        align-items: center; /* Center items horizontally */
+      }
+      .Fællesskab img {
+        max-width: 100%;
+
+    
+    }
+    
+    .Fællesskab .column {
+        max-width: 100%; /* Allow each column to take full width */
+      }
+    .tekst-og-knap {
+      max-width: 100%;
+    }
+    .Fællesskab h2 {
+      font-size: 4vw; /* Increase font size for smaller screens */
+      text-align: center; /* Center the header text */
+    }
+  
+    .Fællesskab p {
+      font-size: 3vw; /* Increase font size for smaller screens */
+      text-align: center; /* Center the paragraph text */
+
+    }
+
+  }
+
+    

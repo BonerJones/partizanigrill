@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partizani</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+    <link rel="stylesheet" href="book.css">
+</head>
+
+<body>
+
+    <header>
+
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+            <a href="Menu.html">MENU</a>
+            <a href="Book.html">BOOK</a>
+            <a href="index.html"><img src="images/PARTIZANI.png"alt="Logo"/></a>
+            <a href="om.html">OM OS</a>
+            <a href="Find.html">FIND OS</a>
+        </nav>
+    
+        <!-- Mobile Navigation -->
+        <div class="mobile-header">
+            <img src="images/Orangeburger.png" alt="Menu" class="burger-icon" onclick="toggleMenu()" />
+            <a href="index.html" class="mobile-logo-link">
+                <img src="images/PARTIZANI.png" alt="Logo" class="mobile-logo"/>
+            </a>
+        </div>
+    
+        <!-- Dropdown Menu for Mobile -->
+        <nav class="dropdown-menu" id="dropdownMenu">
+            <a href="Menu.html">MENU</a>
+            <a href="Book.html">BOOK</a>
+            <a href="Om.html">OM OS</a>
+            <a href="Find.html">FIND OS</a>
+        </nav>
+    
+        <!-- Script for toggling dropdown -->
+        <script>
+            function toggleMenu() {
+                const menu = document.getElementById('dropdownMenu');
+                menu.classList.toggle('show');
+            }
+        </script>
+    </header>
+
+    <main>
+
+<div class="page-container">
+    <div class="booking-container">
+        <h1>Book Your Table</h1>
+        <div id="calendar"></div>
+        <div id="time-box">
+            <h2>Available Times</h2>
+            <div id="time-slots"></div>
+        </div>
+
+    </div>
+  
+
+    <div class="main-container">
+        <!-- Left Section -->
+        <div class="left-container">
+            <div class="people-container">
+                <h2>Number of People</h2>
+                <div class="people-controls">
+                    <button id="minus-btn">-</button>
+                    <span id="people-count">1</span>
+                    <button id="plus-btn">+</button>
+                </div>
+            </div>
+            <!-- Contact Information -->
+            <div class="contact-container">
+                <h2>Contact Information</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                </form>
+            </div>
+
+            <!-- Payment Methods -->
+            <div class="payment-container">
+                <h2>Payment Methods</h2>
+                <form>
+                    <label>
+                        <input type="radio" name="payment" value="credit-card" required>
+                        Credit Card
+                    </label>
+                    <div class="payment-details credit-card-details hidden">
+                        <label for="card-number">Card Number:</label>
+                        <input type="text" id="card-number" name="card-number" placeholder="Enter your card number" required>
+                        
+                        <label for="expiry-date">Expiry Date:</label>
+                        <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+                        
+                        <label for="cvv">CVV:</label>
+                        <input type="text" id="cvv" name="cvv" placeholder="Enter CVV" required>
+                    </div>
+            
+                    <label>
+                        <input type="radio" name="payment" value="paypal">
+                        PayPal
+                    </label>
+                    <div class="payment-details paypal-details hidden">
+                        <label for="paypal-email">PayPal Email:</label>
+                        <input type="email" id="paypal-email" name="paypal-email" placeholder="Enter your PayPal email" required>
+                    </div>
+            
+                    <label>
+                        <input type="radio" name="payment" value="mobilepay">
+                        MobilePay
+                    </label>
+                    <div class="payment-details mobilepay-details hidden">
+                        <label for="mobilepay-number">MobilePay Number:</label>
+                        <input type="tel" id="mobilepay-number" name="mobilepay-number" placeholder="Enter your MobilePay number" required>
+                    </div>
+                </form>
+            </div>
+        </div>         
+    <script src="book.js"></script>
+    <button id="book-now-btn" disabled>Book Now</button>
+</main>
+    <footer>
+        <div>
+            <h2>KONTAKT</h2>
+            <p>ÅBOULEVARDEN 57</p> <br>
+            <p>AARHUS C, 8000 DK</p> <br>
+            <p>KONTAKT@PARTIZANI.DK</p>
+            <p>TEL. 64 14 90 50 </p>
+            
+        </div>
+        <div>
+            <h2>INFORMATION</h2>
+                <a href="https://www.instagram.com/partizani_aarhus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">INSTAGRAM</a> <br> <br> <br>
+                <a href="https://www.facebook.com/profile.php?id=100089105482907">FACEBOOK</a> <br> <br> <br>
+                <a href="https://www.bardok.dk/">VORES VENNER</a>
+       
+        </div>
+        <div>
+            <h2>SERVICE</h2>
+            <p>NEWSLETTER</p>
+                <form>
+                    <input type="email" placeholder="Email Address">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            <br> <a href="Om os.html">OM OS </a> <br>
+            <br> <a href="Find os.html">FIND OS </a> <br>
+        
+            
+             
+        </div>
+    
+
+    </footer>
+</body>
+</html>
+</html>
+
