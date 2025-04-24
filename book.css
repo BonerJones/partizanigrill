@@ -51,13 +51,13 @@ nav a:hover {
 
 .page-container {
     display: flex;
-    justify-content: center; /* Center the containers horizontally */
-    align-items: center; /* Center the containers vertically */
-    gap: 20px; /* Space between the containers */
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
 
-    width: 100%; /* Ensure it spans the full width of the viewport */
+    width: 100%; 
     padding: 20px;
-    box-sizing: border-box; /* Include padding in the height calculation */
+    box-sizing: border-box; 
 
 }
 
@@ -66,8 +66,8 @@ nav a:hover {
     flex-direction: column;
     padding: 20px;
     border-radius: 10px;
-    width: 400px; /* Fixed width for both containers */
-    max-width: 90%; /* Ensure responsiveness on smaller screens */
+    width: 400px; 
+    max-width: 90%; 
     text-align: center;
 
 }
@@ -94,15 +94,15 @@ h1 {
 }
 #calendar {
     display: grid;
-    grid-template-columns: repeat(7, 1fr); /* 7 columns for days of the week */
+    grid-template-columns: repeat(7, 1fr);
     gap: 10px;
-    width: 350px; /* Fixed width for the calendar */
-    height: 300px; /* Fixed height for the calendar */
-    background: #ffffff; /* Background color for the calendar box */
+    width: 350px; 
+    height: 300px; 
+    background: #ffffff;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for separation */
-    margin-bottom: 20px; /* Add spacing below the calendar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
 }
 
 
@@ -131,7 +131,7 @@ h1 {
     background: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 350px; /* Match the width of the calendar */
+    width: 350px; 
 }
 
 #time-box h2 {
@@ -154,7 +154,7 @@ h1 {
     text-align: center;
     cursor: pointer;
     transition: background 0.3s;
-    width: 80px; /* Fixed width for time slots */
+    width: 80px; 
 }
 
 #time-slots div:hover {
@@ -165,9 +165,9 @@ h1 {
 
 
 #calendar div.selected, #time-slots div.selected {
-    background: #0D9655; /* Green background for selected items */
-    color: white; /* White text for better contrast */
-    font-weight: bold; /* Optional: Make the text bold */
+    background: #0D9655; 
+    color: white; 
+    font-weight: bold; 
  
 }
 
@@ -175,10 +175,10 @@ h1 {
 .main-container {
     display: flex;
     gap: 20px; 
-    justify-content: center; /* Center the containers horizontally */
-    align-items: flex-start; /* Align the containers at the top */
+    justify-content: center; 
+    align-items: flex-start; 
     padding: 20px;
-    max-width: 1200px; /* Optional: Limit the maximum width of the layout */
+    max-width: 1200px;
 
 }
 
@@ -312,14 +312,14 @@ h1 {
 }
 
 #book-now-btn {
-    background-color: #ccc; /* Gray background when disabled */
+    background-color: #ccc; 
     color: white;
     border: none;
     padding: 15px 30px;
     font-size: 16px;
     font-family: Cinzel, sans-serif;
     border-radius: 5px;
-    cursor: not-allowed; /* Show not-allowed cursor when disabled */
+    cursor: not-allowed; 
     transition: background 0.3s;
     margin-top: 20px;
     display: block;
@@ -330,15 +330,15 @@ h1 {
 }
 
 #book-now-btn.enabled {
-    background-color: #0D9655; /* Green background when enabled */
-    cursor: pointer; /* Pointer cursor when enabled */
+    background-color: #0D9655; 
+    cursor: pointer; 
 }
 footer {
     display: flex;
-    background-color: #0D9655; /* Green background */
+    background-color: #0D9655; 
     font-family: cinzel, sans-serif;
     font-size: 10px;
-    color: white; /* White text */
+    color: white; 
     justify-content: space-evenly;
     position: relative;
     width: 100%;
@@ -349,13 +349,13 @@ footer {
 }
 
 footer a {
-    color: white; /* White text for links */
+    color: white; 
     text-decoration: none;
     font-family: cinzel, sans-serif;
 }
 
 footer a:hover {
-    text-decoration: underline; /* Optional: Add underline on hover */
+    text-decoration: underline; 
 }
 
 footer form {
@@ -369,9 +369,9 @@ footer form input {
 }
 
 footer div button {
-    background-color: white; /* White button background */
+    background-color: white; 
     border: none;
-    color: #0D9655; /* Green text for the button */
+    color: #0D9655; 
     padding: 10px 20px;
     text-align: center;
     font-size: 10px;
@@ -382,14 +382,14 @@ footer div button {
 }
 
 footer div button:hover {
-    background-color: #0A7A45; /* Darker green on hover */
-    color: white; /* White text on hover */
+    background-color: #0A7A45; 
+    color: white; 
 }
 
 
 
 .desktop-nav {
-    display: flex; /* Show the desktop navigation by default */
+    display: flex; 
     align-items: center;
     justify-content: space-evenly;
     gap: 40px;
@@ -406,7 +406,7 @@ footer div button:hover {
   }
   
   .mobile-header {
-    display: none; /* Hide the mobile header by default */
+    display: none; 
   }
 @media (max-width: 768px) {
     .desktop-nav {
@@ -443,7 +443,7 @@ footer div button:hover {
         flex-direction: column;
         background-color: #0D9655;
         position: absolute;
-        top: 100px; /* Juster denne værdi for at ændre højden på dropdown-menuen, så logo stadig kan ses*/
+        top: 100px; 
         left: 0;
         width: 100%;
         height: auto;
@@ -466,13 +466,13 @@ footer div button:hover {
     }
 
     .page-container {
-        flex-direction: column; /* Stack the containers vertically */
-        align-items: center; /* Center the containers horizontally */
-        gap: 20px; /* Maintain spacing between the containers */
+        flex-direction: column; 
+        align-items: center; 
+        gap: 20px;
     }
 
     .booking-container, .main-container {
-        width: 90%; /* Make the containers responsive to smaller screens */
-        max-width: 400px; /* Limit the maximum width */
+        width: 90%; 
+        max-width: 400px; 
     }
 }

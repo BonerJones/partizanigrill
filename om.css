@@ -70,23 +70,23 @@ nav a:hover {
 .Hvad h2 {
 align-self:center;
   font-family: Cinzel, sans-serif;
-  font-size: 2vw; /* Use viewport width for responsive font size */
+  font-size: 2vw;
   color: #0D9655;
 }
 
 .Hvad p {
   font-family: Cinzel, sans-serif;
-  font-size: 1.2vw; /* Use viewport width for responsive font size */
+  font-size: 1.2vw; 
   color: black;
   text-align: left;
-  margin: 4%; /* Add spacing around the text */
+  margin: 4%; 
 }
 
 .Hvad video {
-  flex: 1; /* Allow the video to take up available space */
-  width: 100%; /* Make the video responsive */
-  height: auto; /* Maintain aspect ratio */
-  max-width: 50%; /* Limit the video to 50% of the container */
+  flex: 1; 
+  width: 100%;
+  height: auto;
+  max-width: 50%;
 }
 
 
@@ -94,39 +94,39 @@ align-self:center;
 
 .Fællesskab {
     display: flex;
-    flex-wrap: nowrap; /* Prevent wrapping of text and video */
-    justify-content: space-between; /* Space out the text and video */
-    align-items: center; /* Align items vertically */
+    flex-wrap: nowrap; 
+    justify-content: space-between;
+    align-items: center; 
     text-align: center;
-    margin: 0; /* Remove unnecessary margins */
-    padding: 0; /* Remove padding */
+    margin: 0; 
+    padding: 0; 
   }
   
   .Fællesskab .column {
-    flex: 1; /* Allow the image and text to take up equal space */
-    max-width: 50%; /* Limit each column to 50% of the container */
+    flex: 1; 
+    max-width: 50%; 
   }
   
   .Fællesskab img {
     flex: 1;
-    width: 100%; /* Make the image responsive */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto;
   
   }
   
   .Fællesskab h2 {
     align-self:center;
       font-family: Cinzel, sans-serif;
-      font-size: 2vw; /* Use viewport width for responsive font size */
+      font-size: 2vw; 
       color: #0D9655;
     }
 
   .tekst-og-knap p {
     font-family: Cinzel, sans-serif;
-    font-size: 1.2vw; /* Use viewport width for responsive font size */
+    font-size: 1.2vw; 
     color: black;
     text-align: left;
-    margin: 4%; /* Add spacing around the text */
+    margin: 4%; 
   }
   
   #button-container {
@@ -136,7 +136,7 @@ align-self:center;
     padding: 10px 20px;
     border-radius: 50px;
     font-family: Cinzel, sans-serif;
-    font-size: 1vw; /* Use viewport width for responsive font size */
+    font-size: 1vw; 
   }
   
   #button-container a {
@@ -147,10 +147,10 @@ align-self:center;
 
   footer {
     display: flex;
-    background-color: #0D9655; /* Green background */
+    background-color: #0D9655;
     font-family: cinzel, sans-serif;
     font-size: 10px;
-    color: white; /* White text */
+    color: white; 
     justify-content: space-evenly;
     position: relative;
     width: 100%;
@@ -161,13 +161,13 @@ align-self:center;
 }
 
 footer a {
-    color: white; /* White text for links */
+    color: white; 
     text-decoration: none;
     font-family: cinzel, sans-serif;
 }
 
 footer a:hover {
-    text-decoration: underline; /* Optional: Add underline on hover */
+    text-decoration: underline; 
 }
 
 footer form {
@@ -181,9 +181,9 @@ footer form input {
 }
 
 footer div button {
-    background-color: white; /* White button background */
+    background-color: white; 
     border: none;
-    color: #0D9655; /* Green text for the button */
+    color: #0D9655; 
     padding: 10px 20px;
     text-align: center;
     font-size: 10px;
@@ -194,13 +194,13 @@ footer div button {
 }
 
 footer div button:hover {
-    background-color: #0A7A45; /* Darker green on hover */
-    color: white; /* White text on hover */
+    background-color: #0A7A45; 
+    color: white; 
 }
 
 
 
-/* Styles for mobile header */
+
 .desktop-nav {
     display: flex;
     align-items: center;
@@ -255,7 +255,7 @@ footer div button:hover {
         flex-direction: column;
         background-color: #0D9655;
         position: absolute;
-        top: 100px; /* Juster denne værdi for at ændre højden på dropdown-menuen, så logo stadig kan ses*/
+        top: 100px; 
         left: 0;
         width: 100%;
         height: auto;
@@ -278,34 +278,34 @@ footer div button:hover {
     }
 
     .Hvad {
-        flex-direction: column; /* Stack the text and video vertically */
-        align-items: center; /* Center items horizontally */
+        flex-direction: column; 
+        align-items: center; 
       }
     
       .Hvad .column {
-        max-width: 100%; /* Allow each column to take full width */
+        max-width: 100%; 
       }
     
       .Hvad h2 {
-        font-size: 4vw; /* Increase font size for smaller screens */
-        text-align: center; /* Center the header text */
+        font-size: 4vw; 
+        text-align: center; 
       }
     
       .Hvad p {
-        font-size: 3vw; /* Increase font size for smaller screens */
-        text-align: center; /* Center the paragraph text */
+        font-size: 3vw; 
+        text-align: center; 
       }
     
       .Hvad video {
-        max-width: 100%; /* Allow the video to take full width */
+        max-width: 100%; 
       }
 
 
 
 
       .Fællesskab {
-        flex-direction: column; /* Stack the image and text vertically */
-        align-items: center; /* Center items horizontally */
+        flex-direction: column; 
+        align-items: center;
       }
       .Fællesskab img {
         max-width: 100%;
@@ -314,19 +314,19 @@ footer div button:hover {
     }
     
     .Fællesskab .column {
-        max-width: 100%; /* Allow each column to take full width */
+        max-width: 100%; 
       }
     .tekst-og-knap {
       max-width: 100%;
     }
     .Fællesskab h2 {
-      font-size: 4vw; /* Increase font size for smaller screens */
-      text-align: center; /* Center the header text */
+      font-size: 4vw; 
+      text-align: center;
     }
   
     .Fællesskab p {
-      font-size: 3vw; /* Increase font size for smaller screens */
-      text-align: center; /* Center the paragraph text */
+      font-size: 3vw; 
+      text-align: center; 
 
     }
 

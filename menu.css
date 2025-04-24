@@ -72,11 +72,11 @@ nav a:hover {
     height: auto;
     color: #0d9655;
     font-family: Inter, var(--default-font-family);
-    font-size: 4vw; /* Use viewport width for responsive font size */
+    font-size: 4vw; 
     font-weight: 700;
-    line-height: 1.2; /* Adjust line height for better readability */
-    text-align: center; /* Center the text */
-    margin-top: 2%; /* Add spacing above and below */
+    line-height: 1.2;
+    text-align: center; 
+    margin-top: 2%; 
     margin-bottom: 1%;
   }
   
@@ -87,11 +87,11 @@ nav a:hover {
     width: 80%;
     color: #000000;
     font-family: Poppins, var(--default-font-family);
-    font-size: 1.5vw; /* Use viewport width for responsive font size */
+    font-size: 1.5vw;
     font-weight: 400;
-    line-height: 1.5; /* Adjust line height for better readability */
+    line-height: 1.5; 
     text-align: center;
-    margin-top: 1%; /* Add spacing above and below */
+    margin-top: 1%; 
     margin-bottom: 2%;
   }
 
@@ -100,12 +100,12 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative; /* Required for absolute positioning of child elements */
-    width: 100%; /* Full width of the container */
-    height: auto; /* Adjust height dynamically */
-    background: url('images/lam.png') no-repeat center; /* Add the lamb image */
-    background-size: cover; /* Ensure the image covers the container */
-    z-index: 1; /* Base z-index for the lamb picture */
+    position: relative; 
+    width: 100%; 
+    height: auto; 
+    background: url('images/lam.png') no-repeat center; 
+    background-size: cover; 
+    z-index: 1; 
   }
   
   .pris {
@@ -143,49 +143,49 @@ nav a:hover {
   
   .text-container {
     display: flex;
-    flex-direction: column; /* Stack the header and text vertically */
-    align-items: center; /* Center the text horizontally */
-    justify-content: center; /* Center content vertically */
-    flex: 1; /* Allow the container to take up available space */
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    flex: 1; 
     margin: 0 20px;
   }
   
 .text-container h2 {
   font-family: Cinzel, sans-serif;
-  font-size: 3vw; /* Use viewport width for responsive font size */
-  font-weight: 700; /* Make the header bold */
-  line-height: 1.2; /* Adjust line height for better readability */
-  color: #0D9655; /* Keep the header color consistent */
-  text-align: center; /* Center the header text */
-  margin-bottom: 10px; /* Add spacing below the header */
+  font-size: 3vw;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #0D9655; 
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .text-container p {
-  font-size: 1.5vw; /* Use viewport width for responsive font size */
-  font-weight: 400; /* Keep the text weight normal */
-  line-height: 1.5; /* Adjust line height for better readability */
-  color: #000000; /* Keep the text color black */
-  text-align: center; /* Center the text */
-  margin-top: 10px; /* Add spacing above the text */
+  font-size: 1.5vw; 
+  font-weight: 400; 
+  line-height: 1.5; 
+  color: #000000; 
+  text-align: center;
+  margin-top: 10px; 
   font-family: Poppins, var(--default-font-family);
-  width: 100%; /* Make the text container wider for smaller screens */
+  width: 100%; 
 }
 
   img {
-    max-width: 100%; /* Ensure the image never exceeds the width of its container */
-    height: auto; /* Maintain the aspect ratio */
-    display: block; /* Remove any inline spacing below the image */
-    margin: 0 auto; /* Center the image horizontally if needed */
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
 }
 
 /* Specific styles for content-row images */
 .content-row img {
-    max-width: 50%; /* Limit the width of images in content rows to 50% of the container */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 50%; 
+    height: auto; 
 }
   .content-row img {
 
-    object-fit: cover; /* Maintain aspect ratio and crop if necessary */
+    object-fit: cover;
 
 
   }
@@ -193,11 +193,11 @@ nav a:hover {
 
   
   .content-row .undertekst.left {
-    text-align: center; /* Align text to the right for left-side text */
+    text-align: center; 
   }
   
   .content-row .undertekst.right {
-    text-align: center /* Align text to the left for right-side text */
+    text-align: center 
   }
 
 
@@ -211,13 +211,13 @@ nav a:hover {
   
   .janjetina,
   .burek {
-    justify-content: flex-end; /* Align these images to the right */
+    justify-content: flex-end; 
     padding-right: 20px;
   }
   
   .cevapi,
   .sac{
-    justify-content: flex-start; /* Align these images to the left */
+    justify-content: flex-start; 
     padding-left: 20px;
   }
 
@@ -230,10 +230,10 @@ nav a:hover {
  
   footer {
     display: flex;
-    background-color: #0D9655; /* Green background */
+    background-color: #0D9655; 
     font-family: cinzel, sans-serif;
     font-size: 10px;
-    color: white; /* White text */
+    color: white;
     justify-content: space-evenly;
     position: relative;
     width: 100%;
@@ -244,13 +244,13 @@ nav a:hover {
 }
 
 footer a {
-    color: white; /* White text for links */
+    color: white; 
     text-decoration: none;
     font-family: cinzel, sans-serif;
 }
 
 footer a:hover {
-    text-decoration: underline; /* Optional: Add underline on hover */
+    text-decoration: underline; 
 }
 
 footer form {
@@ -264,9 +264,9 @@ footer form input {
 }
 
 footer div button {
-    background-color: white; /* White button background */
+    background-color: white; 
     border: none;
-    color: #0D9655; /* Green text for the button */
+    color: #0D9655; 
     padding: 10px 20px;
     text-align: center;
     font-size: 10px;
@@ -277,11 +277,11 @@ footer div button {
 }
 
 footer div button:hover {
-    background-color: #0A7A45; /* Darker green on hover */
-    color: white; /* White text on hover */
+    background-color: #0A7A45; 
+    color: white; 
 }
 .desktop-nav {
-  display: flex; /* Show the desktop navigation by default */
+  display: flex; 
   align-items: center;
   justify-content: space-evenly;
   gap: 40px;
@@ -298,12 +298,12 @@ footer div button:hover {
 }
 
 .mobile-header {
-  display: none; /* Hide the mobile header by default */
+  display: none; 
 }
 
 @media (max-width: 768px) {
   .mobile-header {
-    display: flex; /* Show the mobile header only on smaller screens */
+    display: flex; 
     justify-content: center;
     align-items: center;
     padding: 10px 20px;
@@ -320,7 +320,7 @@ footer div button:hover {
         cursor: pointer;
     }
     .desktop-nav {
-      display: none; /* Hide the desktop navigation on smaller screens */
+      display: none; 
     }
     .mobile-logo {
         width: 160px;
@@ -332,7 +332,7 @@ footer div button:hover {
         flex-direction: column;
         background-color: #0D9655;
         position: absolute;
-        top: 100px; /* Juster denne værdi for at ændre højden på dropdown-menuen, så logo stadig kan ses*/
+        top: 100px; 
         left: 0;
         width: 100%;
         height: auto;
@@ -354,38 +354,38 @@ footer div button:hover {
         font-size: 18px;
     }
     .overskrift {
-      font-size: 6vw; /* Increase font size for smaller screens */
-      line-height: 1.3; /* Adjust line height for better readability */
+      font-size: 6vw; 
+      line-height: 1.3; 
     }
   
     .undertekst {
-      font-size: 3vw; /* Increase font size for smaller screens */
-      width: 90%; /* Make the text container wider for smaller screens */
+      font-size: 3vw; 
+      width: 90%; 
     }
     .content-row img {
-      display: none; /* Hide the images beside the text */
+      display: none; 
   }
   .content-row {
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center the elements */
-    gap: 20px; /* Add spacing between the elements */
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
 }
 
 .content-row img, .content-row .text-container {
-    border: 2px solid #0D9655; /* Add a green border around each element */
-    border-radius: 10px; /* Add rounded corners */
-    padding: 10px; /* Add padding inside the boxes */
-    width: 90%; /* Make the boxes responsive */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for better visibility */
+    border: 2px solid #0D9655; 
+    border-radius: 10px; 
+    padding: 10px; 
+    width: 90%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .content-row img {
-    max-width: 100%; /* Ensure the image fits within the box */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; 
+    height: auto; 
 }
 
 .content-row .text-container {
-    text-align: center; /* Center the text inside the box */
+    text-align: center; 
 }
 }
 

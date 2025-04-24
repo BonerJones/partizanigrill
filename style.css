@@ -88,10 +88,10 @@ nav a:hover {
 /* Styles for the footer */
 footer {
     display: flex;
-    background-color: #0D9655; /* Green background */
+    background-color: #0D9655; 
     font-family: cinzel, sans-serif;
     font-size: 10px;
-    color: white; /* White text */
+    color: white; 
     justify-content: space-evenly;
     position: relative;
     width: 100%;
@@ -102,13 +102,13 @@ footer {
 }
 
 footer a {
-    color: white; /* White text for links */
+    color: white; 
     text-decoration: none;
     font-family: cinzel, sans-serif;
 }
 
 footer a:hover {
-    text-decoration: underline; /* Optional: Add underline on hover */
+    text-decoration: underline; 
 }
 
 footer form {
@@ -122,9 +122,9 @@ footer form input {
 }
 
 footer div button {
-    background-color: white; /* White button background */
+    background-color: white; 
     border: none;
-    color: #0D9655; /* Green text for the button */
+    color: #0D9655; 
     padding: 10px 20px;
     text-align: center;
     font-size: 10px;
@@ -135,14 +135,14 @@ footer div button {
 }
 
 footer div button:hover {
-    background-color: #0A7A45; /* Darker green on hover */
-    color: white; /* White text on hover */
+    background-color: #0A7A45; 
+    color: white;
 }
 
 
 
 .desktop-nav {
-    display: flex; /* Show the desktop navigation by default */
+    display: flex; 
     align-items: center;
     justify-content: space-evenly;
     gap: 40px;
@@ -159,16 +159,16 @@ footer div button:hover {
   }
   
   .mobile-header {
-    display: none; /* Hide the mobile header by default */
+    display: none; 
   }
   @media (max-width: 768px) {
     .desktop-nav {
-      display: none; /* Hide the desktop navigation on smaller screens */
+      display: none; 
     }
   }
   @media (max-width: 768px) {
     .mobile-header {
-      display: flex; /* Show the mobile header only on smaller screens */
+      display: flex; 
       justify-content: center;
       align-items: center;
       padding: 10px 20px;
@@ -197,7 +197,7 @@ footer div button:hover {
           flex-direction: column;
           background-color: #0D9655;
           position: absolute;
-          top: 100px; /* Juster denne værdi for at ændre højden på dropdown-menuen, så logo stadig kan ses*/
+          top: 100px; 
           left: 0;
           width: 100%;
           height: auto;

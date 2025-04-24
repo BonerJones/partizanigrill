@@ -79,9 +79,9 @@
 
   .vores-lokation {
     font-family: Cinzel, sans-serif;
-    font-size: 3vw; /* Adjust font size as needed */
+    font-size: 3vw; 
     color: #0D9655;
-    text-align: center; /* Center the text */
+    text-align: center;
     margin-top: 3%;
     margin-bottom: 1%;
   
@@ -89,55 +89,55 @@
   
   .partizani-grillbaren {
     font-family: Poppins, sans-serif;
-    font-size: 1.5vw; /* Adjust font size as needed */
+    font-size: 1.5vw; 
     color: black;
-    text-align: center; /* Center the text */
+    text-align: center;
     margin: 1%
   }
   
   .container {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
 
-    padding: 20px; /* Add padding for spacing */
-    box-sizing: border-box; /* Ensure padding doesn't affect width/height */
+    padding: 20px; 
+    box-sizing: border-box;
   }
 
   .container2 {
     display: flex;
-    flex-wrap: nowrap; /* Prevent wrapping of columns */
-    justify-content: space-between; /* Space out the map and text */
-    align-items: flex-start; /* Align items at the top */
-    gap: 20px; /* Add spacing between the map and text */
-    margin: 40px 0; /* Add spacing above and below the section */
+    flex-wrap: nowrap; 
+    justify-content: space-between;
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 40px 0; 
   }
   
   .container2 .column {
-    flex: 1; /* Allow both columns to take up equal space */
-    max-width: 50%; /* Limit each column to 50% of the container */
+    flex: 1; 
+    max-width: 50%; 
   }
   
   .map-column iframe {
-    width: 100%; /* Make the iframe responsive */
+    width: 100%; 
   }
   
   .text-column p {
     font-family: Poppins, sans-serif;
-    font-size: 1.2vw; /* Use viewport width for responsive font size */
+    font-size: 1.2vw; 
     color: black;
-    text-align: left; /* Align text to the left */
+    text-align: left; 
     margin-right: 5%;
     margin-top: 0;
   }
  
   footer {
     display: flex;
-    background-color: #0D9655; /* Green background */
+    background-color: #0D9655; 
     font-family: cinzel, sans-serif;
     font-size: 10px;
-    color: white; /* White text */
+    color: white; 
     justify-content: space-evenly;
     position: relative;
     width: 100%;
@@ -148,13 +148,13 @@
 }
 
 footer a {
-    color: white; /* White text for links */
+    color: white; 
     text-decoration: none;
     font-family: cinzel, sans-serif;
 }
 
 footer a:hover {
-    text-decoration: underline; /* Optional: Add underline on hover */
+    text-decoration: underline; 
 }
 
 footer form {
@@ -168,9 +168,9 @@ footer form input {
 }
 
 footer div button {
-    background-color: white; /* White button background */
+    background-color: white; 
     border: none;
-    color: #0D9655; /* Green text for the button */
+    color: #0D9655; 
     padding: 10px 20px;
     text-align: center;
     font-size: 10px;
@@ -181,12 +181,12 @@ footer div button {
 }
 
 footer div button:hover {
-    background-color: #0A7A45; /* Darker green on hover */
-    color: white; /* White text on hover */
+    background-color: #0A7A45; 
+    color: white; 
 }
   
 .desktop-nav {
-  display: flex; /* Show the desktop navigation by default */
+  display: flex; 
   align-items: center;
   justify-content: space-evenly;
   gap: 40px;
@@ -203,16 +203,16 @@ footer div button:hover {
 }
 
 .mobile-header {
-  display: none; /* Hide the mobile header by default */
+  display: none; 
 }
 @media (max-width: 768px) {
   .desktop-nav {
-    display: none; /* Hide the desktop navigation on smaller screens */
+    display: none; 
   }
 }
 @media (max-width: 768px) {
   .mobile-header {
-    display: flex; /* Show the mobile header only on smaller screens */
+    display: flex; 
     justify-content: center;
     align-items: center;
     padding: 10px 20px;
@@ -237,7 +237,7 @@ footer div button:hover {
   flex-direction: column;
   background-color: #0D9655;
   position: absolute;
-  top: 100px; /* Juster denne værdi for at ændre højden på dropdown-menuen, så logo stadig kan ses*/
+  top: 100px; 
   left: 0;
   width: 100%;
   height: auto;
@@ -260,29 +260,29 @@ footer div button:hover {
 }
 
 .container2 {
-flex-direction: column; /* Stack the map and text vertically */
-align-items: center; /* Center items horizontally */
+flex-direction: column; 
+align-items: center; 
 }
 
 .container2 .column {
-  width: 100%; /* Allow each column to take full width */
-max-width: 100%; /* Allow each column to take full width */
+  width: 100%; 
+max-width: 100%; 
 }
 
 .map-column iframe {
-max-width: 100%; /* Allow the iframe to take full width */
+max-width: 100%; 
 }
 
 .text-column p {
-font-size: 3vw; /* Increase font size for smaller screens */
-text-align: center; /* Center the text */
+font-size: 3vw; 
+text-align: center; 
 }
 
 .partizani-grillbaren {
-font-size: 3vw; /* Increase font size for smaller screens */
+font-size: 3vw; 
 
 }
 .vores-lokation {
-font-size: 5vw; /* Increase font size for smaller screens */
+font-size: 5vw; 
 }
 }   
